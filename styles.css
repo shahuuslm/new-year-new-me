@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.header {
+    background-image: url('images/banner/banner2.png');
+    background-size: cover;
+    padding-right: 230px;
+    text-align: right;
+}
+
+.header-title {
+    /* font-family: 'Work Sans', sans-serif; */
+    color: #151414;
+    padding-top: 216px;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.header-description {
+    color: #444343;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.header-btn {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #F15B22;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 167px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+main {
+    background-color: #fff;
+    padding: 0px 150px;
+}
+
+.failurs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 130px 0px;
+    gap: 100px;
+}
+
+.failurs-img {
+    width: 451px;
+    /* background: rgba(241, 91, 34, 0.20); */
+
+}
+
+.failurs-description-title {
+    color: #151414;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.failurs-description-para,
+li {
+    color: #444343;
+    /* font-family: 'Work Sans', sans-serif; */
+    line-height: 26px;
+    max-width: 416px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    list-style: none;
+}
+i{
+    color:#16D887;
+    margin-right: 20px;
+    width: 24px;
+}
+.tick-line{
+    display: flex;
+    align-items: center;
+}
+.plans-section {
+    text-align: center;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.section-title {
+    color: #151414;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.icon {
+    width: 90px;
+    margin-bottom: 25px;
+}
+
+.plan-title {
+    color: #151414;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.plan-description {
+    margin-bottom: 130px;
+    color: #737272;
+    text-align: center;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-weight: 500;
+
+}
+
+.mindset-container {
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('images/watch.png');
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+
+.mindset-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    /* font-family: 'Work Sans', sans-serif; */
+    margin-bottom: 24px;
+
+}
+
+.mindset-description {
+    padding: 60px 65px;
+}
+
+.call {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    color: #F15B22;
+    text-align: center;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #151414;
+    padding: 130px 230px;
+}
+
+.section-title {
+    color: #F8F8F8;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.section-description {
+    /* font-family: 'Work Sans', sans-serif; */
+    color: #FFF;
+    line-height: 26px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.mail {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    /* font-family: 'Work Sans', sans-serif; */
+    color: #FFF;
+    line-height: 26px;
+}
+
+.phone {
+    /* font-family: 'Work Sans', sans-serif; */
+    color: #FFF;
+    line-height: 26px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.images {
+    display: flex;
+    margin-top: 0px;
+}
+
+img {
+    margin-right: 10px;
+
+}
+
+.email {
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    color: #F3F3F3;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-size: 18px;
+    padding: 22px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+
+.btn {
+    width: 170.106px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    color: #F15B22;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
